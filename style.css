@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    font-size: 16px;
+}
+body{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* calculator-card */
+
+.container{
+    background-color: white;
+    height: 700px;
+    width: 400px;
+    border-radius: 10px;
+    border: 5px solid black;
+    margin: 30% auto;
+    background-color: #DAEAF1;
+    
+}
+.heading{
+    width: 100%;
+    font-size: 1em;
+    margin: 2rem auto; 
+    align-self:center;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.displaybox{
+    padding: 10px 20px;
+    
+    width: 90%;
+    height: 8rem;
+    background-color:burlywood;
+    border: 2px solid black;
+    border-radius: 1px;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+
+    margin: 2rem 5%;
+}
+.screen-last {
+    min-height: 32px;
+    font-size: 20px;
+    margin-bottom: 3px;
+    /* border: 3px solid salmon ;/*to remeoce*/
+    border-radius: 0.5rem; 
+
+    
+}
+  
+.screen-current {
+    min-height: 64px;
+    font-size: 40px;
+    /* border: 3px solid salmon ;/*to remeoce*/
+    border-radius: 1rem; 
+}
+
+
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 2rem 5%;;
+}
+
+
+
+.span-2 {
+    grid-column: span 2;
+}
+.btn {
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 50%;
+    
+    font-size: 20px;
+    
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn-red{
+background-color: #F47C7C;
+
+border-radius: 5px;
+}
+.btn-blue{
+    background-color: #8CC0DE;
+    border-radius: 5px;
+}
+  
+
+
+
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
+  
+.fa-github {
+    color: black;
+}
+  
